@@ -62,6 +62,7 @@ class Todo:
             print("To-Do List:")
             for i, task in enumerate(self.tasks, start=1):
                 print(f"{i}. {task}")
+            print("these are the tasks :)")
 
 
 def main():
